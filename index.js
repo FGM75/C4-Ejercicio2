@@ -14,3 +14,5 @@ setTimeout((sistemaOp) => {
 const mbLibre = os.freemem() / 1048576;
 
 console.log("Cuidado, te quedan " + mbLibre + "Mb de RAM libre");
+
+console.log("La version de tu sistema es: " + os.version());
